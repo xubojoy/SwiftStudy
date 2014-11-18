@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A806ADEA1A1B57D50039EBB2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A806ADE91A1B57D50039EBB2 /* ThirdViewController.swift */; };
 		A865D41A1A1A0B1500C488A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A865D4191A1A0B1500C488A5 /* AppDelegate.swift */; };
 		A865D41C1A1A0B1500C488A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A865D41B1A1A0B1500C488A5 /* ViewController.swift */; };
 		A865D41F1A1A0B1500C488A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A865D41D1A1A0B1500C488A5 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A806ADE91A1B57D50039EBB2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		A865D4141A1A0B1500C488A5 /* SwiftStudy-02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftStudy-02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A865D4181A1A0B1500C488A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A865D4191A1A0B1500C488A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				A865D4191A1A0B1500C488A5 /* AppDelegate.swift */,
 				A865D41B1A1A0B1500C488A5 /* ViewController.swift */,
 				A865D43B1A1A0D2000C488A5 /* NextViewController.swift */,
+				A806ADE91A1B57D50039EBB2 /* ThirdViewController.swift */,
 				A865D41D1A1A0B1500C488A5 /* Main.storyboard */,
 				A865D4201A1A0B1500C488A5 /* Images.xcassets */,
 				A865D4221A1A0B1500C488A5 /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			files = (
 				A865D41C1A1A0B1500C488A5 /* ViewController.swift in Sources */,
 				A865D43C1A1A0D2000C488A5 /* NextViewController.swift in Sources */,
+				A806ADEA1A1B57D50039EBB2 /* ThirdViewController.swift in Sources */,
 				A865D41A1A1A0B1500C488A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				A865D4351A1A0B1500C488A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A865D4361A1A0B1500C488A5 /* Build configuration list for PBXNativeTarget "SwiftStudy-02Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				A865D4381A1A0B1500C488A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

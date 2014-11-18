@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.purpleColor()
+        self.title = "第一页"
         var btn = UIButton (frame: CGRectMake(100, 100, 100, 100))
         btn.setTitle("push", forState: UIControlState.Normal)
         btn.addTarget(self, action: "btnClick", forControlEvents: UIControlEvents.TouchUpInside)
@@ -20,10 +22,9 @@ class ViewController: UIViewController {
         self.view.addSubview(btn)
     }
     func btnClick(){
-        
-        println(">>>>>>>>>>>>点击啦")
-        
-        NSLog("》》》》》》》点击了")
+        println("输出啦！！！！！！")
+        let nvc = NextViewController()
+        self.navigationController?.pushViewController(nvc, animated: true)
         
     }
 
