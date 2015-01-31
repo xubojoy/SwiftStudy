@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,7 +22,7 @@ class ViewController: UIViewController {
         label.textColor=UIColor.blueColor()
         self.view.addSubview(label)
         
-        var btn  = UIButton (frame: CGRectMake(100, 300, 100, 100));
+        let btn  = UIButton (frame: CGRectMake(100, 300, 100, 100));
         btn.addTarget(self, action: "btnClick", forControlEvents: UIControlEvents.TouchUpInside)
         btn.backgroundColor = UIColor.redColor()
         btn.setTitle("点击", forState: UIControlState.Normal)
@@ -33,9 +35,11 @@ class ViewController: UIViewController {
     
     func btnClick(){
         
+        
         println(">>>>>>>>>>>>点击啦")
     
         NSLog("》》》》》》》点击了")
+        println()
     
     }
     
